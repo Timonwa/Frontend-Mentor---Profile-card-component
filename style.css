@@ -1,9 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 18px;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  color: hsl(229, 23%, 23%);
 }
 body {
   background-color: hsl(185, 75%, 39%);
@@ -20,7 +22,7 @@ body {
   right: 45%;
 }
 .svgbtm {
-    display: none;
+  display: none;
 }
 .container {
   display: flex;
@@ -90,7 +92,7 @@ body {
   -o-border-radius: inherit;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-  border-top: solid grey 1px;
+  border-top: solid hsl(227, 10%, 46%) 1px;
 }
 p:first-child {
   font-weight: 700;
@@ -104,11 +106,15 @@ p:last-child {
   text-align: center;
   align-self: center;
 }
-.attribution{
-    position: absolute;
-    bottom:10px;
+.attribution {
+  position: absolute;
+  bottom: 10px;
 }
 .attribution > * {
   font-size: 12px;
   margin-top: 50px;
+}
+a:link,
+a:visited {
+  color: hsl(229, 23%, 23%);
 }
